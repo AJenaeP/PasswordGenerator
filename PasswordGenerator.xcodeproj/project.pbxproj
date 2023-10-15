@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD20A9982ADC5C62004AFFD1 /* toggleOff.png in Resources */ = {isa = PBXBuildFile; fileRef = FD20A9972ADC5C62004AFFD1 /* toggleOff.png */; };
+		FD20A99C2ADC5C84004AFFD1 /* finalProduct.gif in Resources */ = {isa = PBXBuildFile; fileRef = FD20A99B2ADC5C84004AFFD1 /* finalProduct.gif */; };
+		FD20A99E2ADC5CCE004AFFD1 /* initialGeneration.png in Resources */ = {isa = PBXBuildFile; fileRef = FD20A99D2ADC5CCE004AFFD1 /* initialGeneration.png */; };
+		FD20A9A02ADC5CFD004AFFD1 /* copied.png in Resources */ = {isa = PBXBuildFile; fileRef = FD20A99F2ADC5CFD004AFFD1 /* copied.png */; };
 		FD2BC72E2AB92CF10029CFF9 /* PasswordGeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2BC72D2AB92CF10029CFF9 /* PasswordGeneratorApp.swift */; };
 		FD2BC7302AB92CF10029CFF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2BC72F2AB92CF10029CFF9 /* ContentView.swift */; };
 		FD2BC7322AB92CF20029CFF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2BC7312AB92CF20029CFF9 /* Assets.xcassets */; };
@@ -14,6 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD20A9942ADC5A49004AFFD1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FD20A9972ADC5C62004AFFD1 /* toggleOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = toggleOff.png; path = ../../../toggleOff.png; sourceTree = "<group>"; };
+		FD20A99B2ADC5C84004AFFD1 /* finalProduct.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = finalProduct.gif; path = ../../../finalProduct.gif; sourceTree = "<group>"; };
+		FD20A99D2ADC5CCE004AFFD1 /* initialGeneration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = initialGeneration.png; path = ../../../initialGeneration.png; sourceTree = "<group>"; };
+		FD20A99F2ADC5CFD004AFFD1 /* copied.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = copied.png; path = ../../../copied.png; sourceTree = "<group>"; };
 		FD2BC72A2AB92CF10029CFF9 /* PasswordGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2BC72D2AB92CF10029CFF9 /* PasswordGeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGeneratorApp.swift; sourceTree = "<group>"; };
 		FD2BC72F2AB92CF10029CFF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +64,7 @@
 				FD2BC72F2AB92CF10029CFF9 /* ContentView.swift */,
 				FD2BC7312AB92CF20029CFF9 /* Assets.xcassets */,
 				FD2BC7332AB92CF20029CFF9 /* Preview Content */,
+				FD20A9942ADC5A49004AFFD1 /* README.md */,
 			);
 			path = PasswordGenerator;
 			sourceTree = "<group>";
@@ -62,6 +72,10 @@
 		FD2BC7332AB92CF20029CFF9 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				FD20A99F2ADC5CFD004AFFD1 /* copied.png */,
+				FD20A99D2ADC5CCE004AFFD1 /* initialGeneration.png */,
+				FD20A99B2ADC5C84004AFFD1 /* finalProduct.gif */,
+				FD20A9972ADC5C62004AFFD1 /* toggleOff.png */,
 				FD2BC7342AB92CF20029CFF9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -126,7 +140,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD2BC7352AB92CF20029CFF9 /* Preview Assets.xcassets in Resources */,
+				FD20A9A02ADC5CFD004AFFD1 /* copied.png in Resources */,
+				FD20A9982ADC5C62004AFFD1 /* toggleOff.png in Resources */,
 				FD2BC7322AB92CF20029CFF9 /* Assets.xcassets in Resources */,
+				FD20A99E2ADC5CCE004AFFD1 /* initialGeneration.png in Resources */,
+				FD20A99C2ADC5C84004AFFD1 /* finalProduct.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +288,11 @@
 				DEVELOPMENT_TEAM = 6ANG95RB8L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,11 +318,11 @@
 				DEVELOPMENT_TEAM = 6ANG95RB8L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

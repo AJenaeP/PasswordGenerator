@@ -46,7 +46,7 @@ struct ContentView: View {
                                 .fill(thumbColor)
                                 .shadow(radius: 1, x: 0, y: 1)
                                 .padding(1.5)
-                                .offset(x: configuration.isOn ? 10 : -10))
+                                .offset(x: configuration.isOn ? 10 : -10, y: configuration.isOn ? 0 : -0.5))
                 }
             }
             .font(.title)
@@ -55,6 +55,7 @@ struct ContentView: View {
     
     //used to generate the password
     func generatePassword(){
+        hiddenPass = true;
         password = ""
         var counter = 0
         let letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
