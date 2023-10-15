@@ -1,5 +1,4 @@
-# Password Generator
-
+# PasswordGenerator
 ### Project Status: Complete
 
 ##### This app is a simple easy-to-use password generator app. 
@@ -7,4 +6,3 @@
 ##### You are able to hide and show the password as well as copy it for ease of use when creating accounts on other sites. 
 
 ### This app will **NEVER** store passwords!
-
